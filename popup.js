@@ -19,7 +19,7 @@ document.getElementById('getSummaryBtn').addEventListener('click', async functio
                 summaryElement.innerText = 'Error: ' + error.message;
             }
         } else {
-            summaryElement.innerText = 'This is not a valid YouTube video URL.';
+            summaryElement.innerText = 'This is not  valid YouTube video URL.';
         }
     });
 });
