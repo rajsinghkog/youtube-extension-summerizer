@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Summary Extension",
+    "version": "1.0",
+    "description": "Automatically get the summary of YouTube videos",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+      "http://localhost/*"
+    ]
+  }
+  
